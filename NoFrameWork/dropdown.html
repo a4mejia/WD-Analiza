@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Dropdown</title>
+    <style>
+        h2{
+            display: block;
+            font-size: x-large;
+            min-width:100px;
+            margin: 0;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(114, 230, 232);
+
+        }
+        .font{
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(85, 85, 85);
+        }
+        .dd {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            width: 100px;
+        }
+        nav > div:hover > div, nav > div:focus-within > div {
+            display: flex;
+            background-color: rgb(181, 248, 255);
+        }
+        nav a:hover {
+            background-color: rgb(224, 246, 250);
+            height: 40px;
+        }
+        body{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <nav class="contain">
+    <div>
+        <h2 class="font">File</h2>
+        <div class="dd">
+           <a>New</a>
+           <br>
+           <a>Open</a>
+           <br>
+           <a>Save</a>
+           <br>
+           <a>Print</a>
+           <br>
+           <a>Close</a>
+        </div>
+    </div>
+    <div> 
+         <h2 class="font">Edit</h2>  
+        <div class="dd">
+        <a>Undo</a>
+        <br>
+        <a>Redo</a>
+        <br>
+        <a>Cut</a>
+        <br>
+        <a>Paste</a>
+        <br>
+        <a>Delete</a>
+        <br>
+        <a>Select All</a>
+    </div>
+    </div>
+    <div> 
+        <h2 class="font">View</h2>  
+        <div class="dd">
+        <a>Zoom In</a>
+        <br>
+        <a>Zoom Out</a>
+        <br>
+        <a>Actual Size</a>
+        <br>
+        <a>Fit Page</a>
+        <br>
+        <a>Fit Width</a>
+        <br>
+        <a>Fit Height</a>
+        <br>
+        <a>Rotate Left</a>
+        <br>
+        <a>Rotate Right</a>
+        <br>
+        <a>Full Screen</a>
+    </div>
+</div>
+</nav>
+</body>
+</html>
