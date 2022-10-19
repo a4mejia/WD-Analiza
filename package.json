@@ -1,0 +1,26 @@
+{
+  "name": "wd-analiza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a4mejia/WD-Analiza.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a4mejia/WD-Analiza/issues"
+  },
+  "homepage": "https://github.com/a4mejia/WD-Analiza#readme",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
