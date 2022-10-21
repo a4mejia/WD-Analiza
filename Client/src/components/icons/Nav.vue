@@ -33,14 +33,17 @@ let isActive = ref(false);
         <div class="navbar-item has-dropdown is-hoverable">
 
           <a class="navbar-link">
-            More
+            Intake
           </a>
   
           <div class="navbar-dropdown">
-          <router-link class="navbar-item" to="/about">
-            About
+          
+          <router-link class="navbar-item" to="/calories">
+            Fluids
           </router-link>
-       
+          <router-link class="navbar-item" to="/calories">
+            Fluids
+          </router-link>
             <a class="navbar-item">
               Jobs
             </a>
@@ -67,6 +70,6 @@ let isActive = ref(false);
 </template>
 <style>
   .router-link-active{
-    border-bottom: #00AA00 5px solid;
+    border-bottom: #aeffae 5px solid;
   }
 </style>
