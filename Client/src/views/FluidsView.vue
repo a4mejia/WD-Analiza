@@ -73,8 +73,8 @@ import { reactive } from 'vue';
     display: -moz-grid-line;
     width: 90px;
   }
-  .top{
-    color: aliceblue;
-    background-color: rgb(136, 136, 136);
+  .top, .title, .sub-title{
+    color: rgb(141, 192, 237);
+    background-color: rgb(4, 21, 79);
   }
 </style>

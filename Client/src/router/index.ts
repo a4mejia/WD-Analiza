@@ -11,27 +11,38 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/workouts',
+      name: 'workouts',
+      component: () => import('../views/WorkoutsView.vue')
+    },
+    {
+      path: '/currentworkouts',
+      name: 'currentworkouts',
+      component: () => import('../views/WorkoutsView.vue')
+    },
+    {
+      path: '/pastworkouts',
+      name: 'pastworkouts',
+      component: () => import('../views/WorkoutsView.vue')
+    },
+    {
+      path: '/statistics',
+      name: 'statistics',
+      component: () => import('../views/WorkoutsView.vue')
+    },
+    {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
     {
       path: '/food',
       name: 'food',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/FoodView.vue')
     },
     {
       path: '/fluid',
       name: 'fluid',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/FluidsView.vue')
     },
   

@@ -27,14 +27,25 @@ let isActive = ref(false);
         </router-link>
         <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-            Sleep
+            Workouts
         </a>
         <div class="navbar-dropdown">
-          <router-link class="navbar-item" to="/">
-            Hours
+          <router-link class="navbar-item" to="/currentworkouts">
+            My Workouts
+          </router-link>
+          <router-link class="navbar-item" to="/pastworkouts">
+            Past Workouts
+          </router-link>
+          <router-link class="navbar-item" to="/friendworkouts">
+            Friend's Activity
           </router-link>
         </div>
       </div>
+
+      <router-link class="navbar-item" to="/statistics">
+            Statisctics 
+          </router-link>
+
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
             Intake
