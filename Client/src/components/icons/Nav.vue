@@ -36,15 +36,10 @@ let isActive = ref(false);
           <router-link class="navbar-item" to="/pastworkouts">
             Past Workouts
           </router-link>
-          <router-link class="navbar-item" to="/friendworkouts">
-            Friend's Activity
-          </router-link>
         </div>
       </div>
 
-      <router-link class="navbar-item" to="/statistics">
-            Statisctics 
-          </router-link>
+ 
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
@@ -63,12 +58,25 @@ let isActive = ref(false);
             </a>
           </div>
         </div>
-
-     
-
-
+          <router-link class="navbar-item" to="/">
+            Statisctics 
+          </router-link>
+          <router-link class="navbar-item" to="/">
+            Friends Activity 
+          </router-link>
+          <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Admin
+          </a>
+          <div class="navbar-dropdown">
+          <router-link class="navbar-item" to="/user">
+            users
+          </router-link>
+          </div>
+        </div>
       </div>
-  
+
+
       <div class="navbar-end">
         <div class="navbar-item">
           <login-badge></login-badge>

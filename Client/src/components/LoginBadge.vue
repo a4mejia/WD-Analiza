@@ -13,8 +13,8 @@
         </a>
     </div>
     <div v-else>
-        Welcome {{session.user.firstName}} {{session.user.lastName}}
-        (<a @click="logout()">
+     {{ session.user.firstName }} {{ session.user.lastName }} 
+    (<a @click="logout()">
             Log out
         </a>)
     </div>

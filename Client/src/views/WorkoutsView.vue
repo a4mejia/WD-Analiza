@@ -4,7 +4,7 @@
 <template>
     <br>
     <h1 class="title">My Activity</h1>
-    <div class="top hero-body container">
+    <div class="top hero-body ">
 
     <form id="form" action="on-click">
         <label> Workout type:
@@ -18,8 +18,8 @@
         <label> Duration of Workout (in min):
             <input type = "text" name  = "workout" maxlength = "100" />
         </label>
-        <br>
-    	<button class="button"> Add Workout</button>
+        <br><br>
+    	<button class="button is-success"> Add Workout</button>
     </form>
     </div>
 </template>

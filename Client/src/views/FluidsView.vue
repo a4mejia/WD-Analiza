@@ -5,14 +5,12 @@ import { reactive } from 'vue';
   const fluids =[
     {name:'water', oz: 16},
     {name:'juice', oz: 16},
-    {name:'alcohol', oz: 16},
     {name:'other', oz: 16},
 
 ]
   const total= reactive([
     {name:'water', oz: 16, qty:1},
     {name:'juice', oz: 16, qty:1}, 
-    {name:'alcohol', oz: 16, qty:1},
     {name:'other', oz: 16, qty:1},  
   ])
   function addToTotal(fluid: any){
