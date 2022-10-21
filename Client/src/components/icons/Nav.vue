@@ -58,11 +58,11 @@ let isActive = ref(false);
             </a>
           </div>
         </div>
-          <router-link class="navbar-item" to="/">
-            Statisctics 
-          </router-link>
-          <router-link class="navbar-item" to="/">
-            Friends Activity 
+        <a class="navbar-item">
+              Statistics
+            </a>
+            <router-link class="navbar-item" to="/friend">
+            Friend Activity
           </router-link>
           <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">

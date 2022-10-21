@@ -2,6 +2,7 @@
 
 </script>
 <template>
+    
     <br>
     <h1 class="title">My Activity</h1>
     <div class="top hero-body ">
@@ -19,9 +20,10 @@
             <input type = "text" name  = "workout" maxlength = "100" />
         </label>
         <br><br>
-    	<button class="button is-success"> Add Workout</button>
+    	<button class= " button is-success "> Add Workout</button>
     </form>
     </div>
+
 </template>
 
 <style>

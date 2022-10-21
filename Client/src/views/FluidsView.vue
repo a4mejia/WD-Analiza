@@ -33,7 +33,7 @@ import { reactive } from 'vue';
     <br><br>
     <h2 class="sub-title">Total amount:</h2>
     <br>
-    <table class="is-bordered">
+    <table class="table is-bordered">
       <tr>
         <th>Fluids</th>
         <th>Amount</th>

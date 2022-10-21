@@ -35,11 +35,10 @@
 .title, .td, .tr{
     display: -moz-grid-line;
     width: 150px;
-    color: rgb(141, 192, 237);
+    color: rgb(108, 177, 238);
   }
   .top, .is-bordered{
-    color: rgb(141, 192, 237);
-    background-color: rgb(4, 21, 79);
+    color: rgb(68, 162, 243);
   }
   
 </style>
