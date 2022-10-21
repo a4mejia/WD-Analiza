@@ -1,7 +1,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import {RouterLink} from 'vue-router';
+import { RouterLink } from 'vue-router';
+import LoginBadge from '../LoginBadge.vue';
 
 let isActive = ref(false);
 </script>
@@ -10,9 +11,7 @@ let isActive = ref(false);
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-      </a>
+     
       <a :class="{'isActive':isActive}" @click= "isActive = !isActive"  role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -26,28 +25,37 @@ let isActive = ref(false);
         <router-link to="/" class="navbar-item" >
           Home
         </router-link>
-       
         <div class="navbar-item has-dropdown is-hoverable">
-
+        <a class="navbar-link">
+            Sleep
+        </a>
+        <div class="navbar-dropdown">
+          <router-link class="navbar-item" to="/">
+            Hours
+          </router-link>
+        </div>
+      </div>
+        <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
             Intake
           </a>
-  
           <div class="navbar-dropdown">
-          
-          <router-link class="navbar-item" to="/fluids">
+          <router-link class="navbar-item" to="/fluid">
             Fluids
           </router-link>
-          <router-link class="navbar-item" to="/calories">
-            Calories
+          <router-link class="navbar-item" to="/food">
+            Food
           </router-link>
-    
             <hr class="navbar-divider">
             <a class="navbar-item">
               Report an issue
             </a>
           </div>
         </div>
+
+     
+
+
       </div>
   
       <div class="navbar-end">
@@ -63,5 +71,6 @@ let isActive = ref(false);
 <style>
   .router-link-active{
     border-bottom: #aeffae 5px solid;
+    
   }
 </style>

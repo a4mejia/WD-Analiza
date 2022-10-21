@@ -27,7 +27,7 @@ import { reactive } from 'vue';
     <h1 class="title">Fluid Intake:</h1>
 
     <ul>
-      <li v-for="fluid in fluids" :key="fluid.name" @click="addToTotal(fluid)">
+      <li v-for="fluid in fluids" :key="fluid.name" @click="addToTotal(fluid.oz)">
         <h3>{{fluid.name}}</h3>
         <em>{{fluid.oz}} oz</em>
       </li>
@@ -49,7 +49,7 @@ import { reactive } from 'vue';
       </tr>
       <tr>
           <td colspan="3">Total</td>
-        <td>{{ total.reduce((fluid) => fluid * fluid.qty, 0) }} oz</td>
+        <td>{{ total.reduce((fluid) => fluid.oz * fluid.qty, 0) }} oz</td>
       </tr>
     </table>
   </div>
