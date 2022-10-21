@@ -26,9 +26,6 @@ let isActive = ref(false);
         <router-link to="/" class="navbar-item" >
           Home
         </router-link>
-        <router-link class="navbar-item" to="/store"  >
-          Store
-        </router-link>
        
         <div class="navbar-item has-dropdown is-hoverable">
 
@@ -38,18 +35,13 @@ let isActive = ref(false);
   
           <div class="navbar-dropdown">
           
-          <router-link class="navbar-item" to="/calories">
+          <router-link class="navbar-item" to="/fluids">
             Fluids
           </router-link>
           <router-link class="navbar-item" to="/calories">
-            Fluids
+            Calories
           </router-link>
-            <a class="navbar-item">
-              Jobs
-            </a>
-            <a class="navbar-item">
-              Contact
-            </a>
+    
             <hr class="navbar-divider">
             <a class="navbar-item">
               Report an issue

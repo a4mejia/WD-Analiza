@@ -3,7 +3,7 @@
 
 <template>
   <main>
-    <h1 class="title"> Home Page</h1>
-    <h2 class="subtitle">The page where you land</h2>
+    <h1 class="title"> Welcome! </h1>
+    <h2 class="subtitle">To your new personalized fitness tracker.</h2>
   </main>
 </template>
