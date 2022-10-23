@@ -2,7 +2,7 @@
 
 <template>
 
-    <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+<nav class="breadcrumb is-centered" aria-label="breadcrumbs">
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">Users</a></li>
@@ -10,7 +10,7 @@
 </nav>
 
     <div class=" hero-body">
-      <br>
+    
       <h1 class="title ">Users:</h1>
       <table class="table is-bordered ">
         <tr>
@@ -26,6 +26,13 @@
             <td>amejia</td>
             <td>"mejiaa12@newpaltz.edu"</td>
             <td>true</td>
+        </tr>
+        <tr>
+            <td> Mark </td>
+            <td>Mendosa</td>
+            <td>mendosa.m</td>
+            <td>"m@mendosa.com"</td>
+            <td>false</td>
         </tr>
         <tr>
             <td> Sam</td>
