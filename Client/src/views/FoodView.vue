@@ -9,7 +9,7 @@ const food= reactive([
   ])
 </script>
 <template>
-   <div class="top hero-body">
+   <div class=" hero-body">
     <h1 class="title"> Breakfast </h1>
     <h2 class="title"> Lunch </h2>
     <h3 class="title"> Dinner </h3>

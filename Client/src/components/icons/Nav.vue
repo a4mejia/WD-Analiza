@@ -30,10 +30,10 @@ let isActive = ref(false);
             Workouts
         </a>
         <div class="navbar-dropdown">
-          <router-link class="navbar-item" to="/currentworkouts">
+          <router-link class="navbar-item" to="/workouts">
             My Workouts
           </router-link>
-          <router-link class="navbar-item" to="/pastworkouts">
+          <router-link class="navbar-item" to="/">
             Past Workouts
           </router-link>
         </div>

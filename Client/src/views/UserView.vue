@@ -2,7 +2,14 @@
 
 <template>
 
-    <div class="top hero-body">
+    <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Users</a></li>
+  </ul>
+</nav>
+
+    <div class=" hero-body">
       <br>
       <h1 class="title ">Users:</h1>
       <table class="table is-bordered ">
