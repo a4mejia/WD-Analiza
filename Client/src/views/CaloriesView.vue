@@ -49,7 +49,6 @@ import { reactive } from 'vue';
       </tr>
       <tr>
           <td colspan="3">Total</td>
-        <td>{{ total.reduce((fluid) => fluid.oz * fluid.qty, 0) }} oz</td>
       </tr>
     </table>
   </div>
