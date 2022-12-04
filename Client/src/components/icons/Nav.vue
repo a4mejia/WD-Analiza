@@ -8,6 +8,7 @@ let isActive = ref(false);
 </script>
 
 <template>
+  
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="container">
     <div class="navbar-brand">
@@ -84,8 +85,10 @@ let isActive = ref(false);
       </div>
     </div>
     </div>
-
   </nav>
+  <div class="control ">
+            <input class="input" type="text" placeholder="Search" v-model="search"  />
+        </div>
 </template>
 <style>
   .router-link-active{

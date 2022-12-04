@@ -26,7 +26,20 @@ const name= ref('');
         </div>
 
         <div class="field">
+            <label class="label">confirm email</label>
+            <div class="control">
+                <input class="input" type="email" placeholder="e.g name@example.com" v-model="email">
+            </div>
+        </div>
+
+        <div class="field">
             <label class="label">Password</label>
+            <div class="control">
+                <input class="input" type="password" placeholder="Password" v-model="password">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Cornfirm Password</label>
             <div class="control">
                 <input class="input" type="password" placeholder="Password" v-model="password">
             </div>
