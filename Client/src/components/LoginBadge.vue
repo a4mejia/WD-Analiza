@@ -6,14 +6,15 @@
 
 <template>
     <div class="buttons" v-if="session.user == null">
-        <a class="button is-primary">
-            <strong>Sign up</strong>
-        </a>
+        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+            <router-link to="/signup">Sign Up</router-link>
+    </button>
 <div class="dropdown is-active">
   <div class="dropdown-trigger">
     <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-        <span>Log in</span>
+            <router-link to="/login">Log in</router-link>
     </button>
+    
     </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
             <div class="dropdown-content">
