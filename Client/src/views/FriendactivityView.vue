@@ -21,7 +21,7 @@
     <div class="media">
       <div class="media-left">
         <figure class="image is-32x32">
-          <img src="../assets/picture.jpg" alt="Placeholder image">
+  <!----->        <img src="../assets/picture.jpg" alt="Placeholder image"><!----->
         </figure>
       </div>
       <div class="media-content">
@@ -60,7 +60,7 @@
     <div class="media">
       <div class="media-left">
         <figure class="image is-32x32">
-          <img src="../assets/picture.jpg" alt="Placeholder image">
+   <!----->  <img src="../assets/picture.jpg" alt="Placeholder image"><!----->
         </figure>
       </div>
       <div class="media-content">
@@ -99,7 +99,7 @@
     <div class="media">
       <div class="media-left">
         <figure class="image is-32x32">
-          <img src="../assets/picture.jpg" alt="Placeholder image">
+  <!----->        <img src="../assets/picture.jpg" alt="Placeholder image"><!----->
         </figure>
       </div>
       <div class="media-content">
@@ -137,7 +137,7 @@
     <div class="media">
       <div class="media-left">
         <figure class="image is-32x32">
-          <img src="../assets/picture.jpg" alt="Placeholder image">
+<!----->          <img src="../assets/picture.jpg" alt="Placeholder image">
         </figure>
       </div>
       <div class="media-content">

@@ -86,9 +86,8 @@ let isActive = ref(false);
     </div>
     </div>
   </nav>
-  <div class="control ">
-            <input class="input" type="text" placeholder="Search" v-model="search"  />
-        </div>
+
+        
 </template>
 <style>
   .router-link-active{
