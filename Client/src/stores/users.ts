@@ -1,7 +1,8 @@
-import { api } from './session';
+import UserViewVue from "@/views/UserView.vue"
+import { api } from "./session";
 
-export function getUsers(){
-    return api <
+export function getUsers(id: string){
+    return api<User>;
 }
 export interface User{
     name: string

@@ -1,0 +1,27 @@
+{
+   "users":[
+    {
+        "first name": "Analiza",
+        "last name": "Mejia",
+        "email": "mejiaa12@newpaltz.edu",
+        "handle":"amejia",
+        "isAdmin":"true"
+
+    },
+    {
+        "first name": "Mark",
+        "last name": "Mendosa",
+        "email": "m@mendosa.com",
+        "handle":"mendosa.m",
+        "isAdmin":"false"
+
+    },  {
+        "first name": "Sam",
+        "last name": "Smith",
+        "email": "s@smith.com",
+        "handle":"ssmith",
+        "isAdmin":"false"
+
+    }
+   ]
+}

@@ -17,6 +17,18 @@ export function setError(error: string | null) {
 }
 export const isLoading = computed(() => !! session.loading);
 
+export async function api<T>(url: string, data: any = null, method?: string ){
+    session.loading++;
+    setError(null);
+    try {
+        return await myFetch<T>(url, data, method);
+    } catch (error) {
+        setError(error as string);
+    }finally{
+        session.loading--;
+    }
+    return {} as T;
+}
 export interface User{
     name: string;
     email: string;
