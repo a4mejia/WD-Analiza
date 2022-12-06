@@ -1,5 +1,12 @@
 <script setup lang="ts">
+import { ref } from 'vue';
+import {useRoute, useRouter} from "vue-router";
+import {getUser, type User} from "@/stores/users";
 
+const route = useRoute();
+const router= useRouter();
+
+const handle= ref('');
 </script>
 <template>
     
@@ -26,6 +33,7 @@
 
     <div class="columns is-mobile is-centered">
   <div class="column is-three-fifths is-offset-one-fifth">
+
     <p class="bd-notification is-primary">
       <div class="columns">
         <div class=" columns is half is-offset-one-quarter">

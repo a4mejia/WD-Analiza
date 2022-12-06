@@ -3,6 +3,7 @@
 import { ref } from "vue";
 import { RouterLink } from 'vue-router';
 import LoginBadge from '../LoginBadge.vue';
+import SignUpBadge from '../SignUpBadge.vue';
 
 let isActive = ref(false);
 </script>
@@ -26,21 +27,9 @@ let isActive = ref(false);
         <router-link to="/" class="navbar-item" >
           Home
         </router-link>
-        <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-            Workouts
-        </a>
-        <div class="navbar-dropdown">
-          <router-link class="navbar-item" to="/workouts">
+        <router-link class="navbar-item" to="/workouts">
             My Workouts
-          </router-link>
-          <router-link class="navbar-item" to="/">
-            Past Workouts
-          </router-link>
-        </div>
-      </div>
-
- 
+        </router-link> 
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
@@ -53,15 +42,10 @@ let isActive = ref(false);
           <router-link class="navbar-item" to="/food">
             Food
           </router-link>
-            <hr class="navbar-divider">
-            <a class="navbar-item">
-              Report an issue
-            </a>
+            
           </div>
         </div>
-        <a class="navbar-item">
-              Statistics
-            </a>
+
             <router-link class="navbar-item" to="/friend">
             Friend Activity
           </router-link>
@@ -80,6 +64,7 @@ let isActive = ref(false);
 
       <div class="navbar-end">
         <div class="navbar-item">
+          <sign-up-badge></sign-up-badge>
           <login-badge></login-badge>
         </div>
       </div>

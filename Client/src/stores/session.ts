@@ -36,20 +36,23 @@ export interface User{
     email: string;
     password: string;
 };
-export function login(handle:string,password: string){
+export function login(name: string, handle:string, email: string, password: string){
     session.user = {
     name,
+    handle,
     password,
-    handle
+    email,
 }};
-export function signup(name: string, handle:string, email: string, password: string) {
+export function signUp(name: string, handle:string, email: string, password: string) {
     session.user = {
     name,
     email,
     handle,
     password,
 }};
-
+export function newUser(){
+    session.user=null;
+};
 export function logout(){
     session.user=null;
 };

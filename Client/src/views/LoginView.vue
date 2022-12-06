@@ -5,16 +5,17 @@ import { ref } from 'vue';
 const email = ref('');
 const password = ref ('');
 const name= ref('');
+const handle=ref('');
 
 </script>
 <template>
     <div>
-    <form class="box" @submit.prevent="login(name, email)">
+    <form class="box" @submit.prevent="login(name, handle, email, password)">
         
         <div class="field">
-            <label class="label">Email</label>
+            <label class="label">Username</label>
             <div class="control">
-                <input class="input" type="email" placeholder="e.g name@example.com" v-model="email">
+                <input class="input" type="handle" placeholder="username" v-model="handle">
             </div>
         </div>
 
