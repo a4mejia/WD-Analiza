@@ -53,7 +53,7 @@ async function save(){
 </script>
 <template>
     <div>
-    <form class="box" @submit.prevent="signUp(name, handle, email, password,)">
+    <form class="box" @submit.prevent="signUp(name, handle, email, password)">
         
         <div class="field">
             <label class="label"> Name </label>

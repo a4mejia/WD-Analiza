@@ -26,6 +26,10 @@ const handle= ref('');
         <label> Duration of Workout (in min):
             <input type = "text" name  = "workout" maxlength = "100" />
         </label>
+        <br>
+        <label> Location
+            <input type = "text" name  = "workout" maxlength = "100" />
+        </label>
         <br><br>
     	<button class= " button is-success "> Add Workout</button>
     </form>

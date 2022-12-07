@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+</script>
 
 <template>
 
@@ -41,6 +43,7 @@
             <td>"s@smith.com"</td>
             <td>false</td>
         </tr>
+     
       </table>
       <button class="on-button">+ Add User</button>
     </div>

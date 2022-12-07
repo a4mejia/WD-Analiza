@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 import { ref } from "vue";
 import { RouterLink } from 'vue-router';
@@ -30,21 +29,6 @@ let isActive = ref(false);
         <router-link class="navbar-item" to="/workouts">
             My Workouts
         </router-link> 
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            Intake
-          </a>
-          <div class="navbar-dropdown">
-          <router-link class="navbar-item" to="/fluid">
-            Fluids
-          </router-link>
-          <router-link class="navbar-item" to="/food">
-            Food
-          </router-link>
-            
-          </div>
-        </div>
 
             <router-link class="navbar-item" to="/friend">
             Friend Activity

@@ -8,6 +8,7 @@ const email = ref('');
 const password = ref ('');
 const name= ref('');
 const handle=ref('');
+
 </script>
 
 <template>

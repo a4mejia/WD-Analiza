@@ -36,6 +36,13 @@ export interface User{
     email: string;
     password: string;
 };
+export interface AddInfo{
+    firstname: string;
+    lastnaem: string;
+    handle:string;
+    email: string;
+
+};
 export function login(name: string, handle:string, email: string, password: string){
     session.user = {
     name,

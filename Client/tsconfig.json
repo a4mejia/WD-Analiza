@@ -8,7 +8,7 @@
       "@/*": ["./src/*"]
     }
   },
-
+  "declarationDir": "types",
   "references": [
     {
       "path": "./tsconfig.config.json"
