@@ -9,8 +9,6 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-
-
     {
       path: '/workouts',
       name: 'workouts',
@@ -61,7 +59,11 @@ const router = createRouter({
       name: 'fluid',
       component: () => import('../views/FluidsView.vue')
     },
-  
+    {
+      path: '/admin',
+      name: 'admin',
+      component: () => import('../views/admin/AddUserView.vue')
+    },
   ]
 })
 export default router;

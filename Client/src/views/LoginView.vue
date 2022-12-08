@@ -25,6 +25,7 @@ const handle=ref('');
                 <input class="input" type="password" placeholder="Password" v-model="password">
             </div>
         </div>
+        
         <button class="button is-primary">Sign in</button>
         </form>
     </div>

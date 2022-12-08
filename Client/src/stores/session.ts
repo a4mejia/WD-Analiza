@@ -2,7 +2,7 @@ import {computed, reactive } from "vue";
 import myFetch from "@/services/myFetch";
 
 const session = reactive ({
-
+//    admin: 
     user: null as User | null,
     loading:0,
     error:null as string | null,
@@ -36,15 +36,22 @@ export interface User{
     email: string;
     password: string;
 };
-export interface AddInfo{
+export interface AddUserInfo{
     firstname: string;
-    lastnaem: string;
+    lastname: string;
     handle:string;
     email: string;
-
 };
+export function addInfo(firstname:string, lastname:string, handle:string, email:string){
+    session.user={
+        firstname,
+        lastname,
+        handle,
+        email
+    }
+}
 export function login(name: string, handle:string, email: string, password: string){
-    session.user = {
+    session.user= {
     name,
     handle,
     password,

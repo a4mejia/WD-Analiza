@@ -82,6 +82,7 @@ async function save(){
                 <input class="input" type="password" placeholder="Password" v-model="password">
             </div>
         </div>
+        
         <button @click="signUp(name, handle, email, password)">Sign up</button>
         </form>
     </div>

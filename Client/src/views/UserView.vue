@@ -1,5 +1,7 @@
 <script setup lang="ts">
+function admin(){
 
+}
 </script>
 
 <template>
@@ -45,7 +47,12 @@
         </tr>
      
       </table>
-      <button class="on-button">+ Add User</button>
+      <div class="buttons">
+        <RouterLink class="button is-primary" to="/admin" >
+          + Add User
+        </RouterLink>
+      </div>
+     
     </div>
   </template>
   <style lang="scss">
