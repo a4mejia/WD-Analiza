@@ -43,7 +43,9 @@
         <RouterLink class="button is-light" to="/user" >
           save
         </RouterLink>
-      </div>        </form>
+      </div>        
+      
+    </form>
     </div>
 </template>
 

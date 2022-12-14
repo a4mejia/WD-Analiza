@@ -47,6 +47,7 @@ function admin(){
         </tr>
      
       </table>
+      
       <div class="buttons">
         <RouterLink class="button is-primary" to="/admin" >
           + Add User
