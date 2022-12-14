@@ -44,7 +44,7 @@ const handle= ref('');
             <div class="card">
   <div class="card-image">
     <figure class="image is-5by5">
-<img src="https://today.duke.edu/sites/default/files/styles/story_hero/public/Woman%20walking%20HERO.jpg?itok=qQNBOoHD" alt="Placeholder image">
+<img src="../assets/495920-beach-walk.jpg" alt="Placeholder image">
     </figure>
   </div>
   <div class="card-content">
@@ -81,7 +81,7 @@ const handle= ref('');
             <div class="card">
   <div class="card-image">
     <figure class="image is-5by5">
-    <img src="https://d1s9j44aio5gjs.cloudfront.net/2021/10/Underwater-empty-pool.jpg" alt="Placeholder image">
+    <img src="../assets/Underwater-empty-pool.jpg" alt="Placeholder image">
     </figure>
   </div>
   <div class="card-content">
@@ -119,7 +119,7 @@ const handle= ref('');
             <div class="card">
   <div class="card-image">
     <figure class="image is-5by5">
-       <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_23/2426541/180509-running-outdoors-al-1053.jpg" alt="Placeholder image">
+       <img src="../assets/180509-running-outdoors-al-1053.jpg" alt="Placeholder image">
     </figure>
   </div>
   <div class="card-content">
