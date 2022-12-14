@@ -7,8 +7,7 @@
 
     "build": "npm i -ws && npm run build -ws",
     "dev": "nodemon --watch server server/index.js",
-    "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js"
   },
   "workspaces": [
     "client"
@@ -19,8 +18,7 @@
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20",
-    "@rollup/plugin-typescript": "8.3.3"
+    "nodemon": "^2.0.20"
   },
   "repository": {
     "type": "git",

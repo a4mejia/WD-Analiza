@@ -36,6 +36,7 @@ export interface User{
     email: string;
     password: string;
 };
+/*
 export interface AddUserInfo{
     firstname: string;
     lastname: string;
@@ -50,6 +51,7 @@ export function addInfo(firstname:string, lastname:string, handle:string, email:
         email
     }
 }
+*/
 export function login(name: string, handle:string, email: string, password: string){
     session.user= {
     name,

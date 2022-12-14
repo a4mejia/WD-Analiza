@@ -1,7 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type SearchViewVue from './SearchView.vue';
+
+</script>
 <template>
 <div class="control container">
-            <input class="input" type="text" placeholder="Search" v-model="search"  />
+            <input class="input" type="text" placeholder="Search"  />
         </div>
 <h1 class="tittle is-3">Friends Activity</h1>
 <br><br><br>       
