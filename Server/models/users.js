@@ -8,7 +8,11 @@ async function collection(){
     const client = await connect();
     return client.db('chopify').collection(COLLECTION_NAME);
 }
-
+function searchUser(q){
+    const db= await collection()
+    const data= await db.find({title:{$rejex: q}}).$Option.toArray();
+}
+    
 async function getUsers(){
     const db = await collection();
     const data = await db.find().toArray()

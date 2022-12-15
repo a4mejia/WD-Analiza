@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type SearchViewVue from './SearchView.vue';
+import type AutoComplete from './AutoComplete.vue';
 
 </script>
 <template>
 <div class="control container">
-            <input class="input" type="text" placeholder="Search"  />
+            <input class="input" type="text" placeholder="Search for user"  />
         </div>
 <h1 class="tittle is-3">Friends Activity</h1>
 <br><br><br>       
