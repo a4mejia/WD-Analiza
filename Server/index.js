@@ -2,7 +2,7 @@ const express = require('express')
 const postsController = require ('.controllers/posts');
 
 const hostname ='12.0.0.1';
-const port = process.env.PORT ||3000;
+const port = process.env.PORT ||3003;
 const app = express()
 
 app.use (express.static('no-framework'));
